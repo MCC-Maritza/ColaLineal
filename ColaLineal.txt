@@ -1,0 +1,18 @@
+
+
+********** ColaLineal **********
+
+Cola implementada con una array
+
+=> La clase ColaLineal contiene un array (listaCola) cuyo máximo tamaño se determina
+por la constante MAXTAMQ. 
+=> El tipo de los elementos queda sin especificar (TipoDeDato), para que pueda sustituirse por un tipo simple, o bien por Object.
+=> Los atributos frente y fin son los punteros de cabecera y cola (fin), respectivamente.
+=> El constructor de la clase inicializa una cola vacía y define el array: new TipoDeDato [MAXTAMQ].
+=> La operación insertar toma un elemento y lo añade al final de la cola. quitar suprime y
+devuelve el elemento de la cabeza de la cola. 
+=> La operación frente devuelve el elemento que está en la primera posición (frente) de la cola, sin eliminar el elemento.
+=> La operación de control colaVacia comprueba si la cola tiene elementos, ya que es necesaria
+esta comprobación antes de eliminar un elemento. 
+=> La operación colaLlena comprueba si la cola está llena, esta comprobación se realiza antes de insertar un nuevo miembro. 
+=> Si las precondiciones para insertar y quitar se violan, el programa debe generar una excepción o error.
